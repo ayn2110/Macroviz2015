@@ -1,9 +1,12 @@
-<footer class="section section-primary">
+<footer class="section">
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
             <p>
-              Macroviz &copy; 2015
+              <span>Macroviz © 2015</span>
+              <span>EN</span>
+              <span>JP</span>
+              <span>TW</span>
             </p>
               </div>
             </div>

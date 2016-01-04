@@ -1,7 +1,13 @@
 body {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, "Arial", "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
 }
+p{
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+ol{
+  list-style-type: none;
 
+}
 .cover {}
 
 .navbar-collapse {
@@ -32,12 +38,6 @@ body {
    float: right ;
  }
 
- #PageList{
-   position: fixed;
-   width: 20%;
-   height: 100%;
-   background-color: #20202F;
- }
 
  .navbar-inverse {
       background: none;
@@ -47,21 +47,102 @@ body {
  .navbar {
      border-radius: 0px;
  }
-#List{
+ h2{
+   color: #646472;
+   font-size: 1.8em;
+   line-height: 150%;
+ }
+div.List{
   background-color: #20202F;
   height: 100%;
   width: 20%;
   position: fixed;
 }
-#Page{
-  width: 100%;
+#PhoneList{
+  font-size: 1em;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
-.container {
-  width: 970px;
+#PhoneList li,.List ol>li{
+  color: #D9D9EA;
+  font-size: 1.2em;
+  margin-bottom: 10px
+}
+#PhoneList{
+  background-color: #242455;
+}
+
+footer{
+  font-size: 1.2em;
+}
+body{
+  font-size: 13px;
+  color: #52525F;
+}
+h1{
+  font-size: 3em;
+  text-align: center;
+  margin-bottom: 40px;
+}
+h3{
+  font-family: Verdana, Geneva, sans-serif;
+  font-weight: bold;
+  color: #434363;
+  font-size: 1.8em;
+  line-height: 180%;
+  margin-top: 0px;
+  margin-bottom: 40px;
+}
+
+.Date{
+  color:#A8A8B7;
+
+}
+.ArticleContent{
+  margin-bottom: 60px;
+}
+footer{
+  position: absolute;
+  bottom: 0px;
 }
 
 #PageSection{
-  margin-top: 450px;
-  margin-left: 22%;
-  width: 72%;
+  margin-top: 430px;
 }
+.ArticleContent a{
+  color: #434363;
+}
+.ArticleContent span>a{
+  color: #B46466;
+}
+@media screen and (min-width: 480px) {
+  #PhoneList{
+    background-color: #fff;
+  }
+}/*xs*/
+@media screen and (min-width:750px) {
+
+  .container {
+    width: 970px;
+  }
+  #Page{
+    width: 100%;
+  }
+  #PageList{
+    position: fixed;
+    width: 20%;
+    height: 100%;
+    background-color: #20202F;
+  }
+
+  #PageSection{
+    margin-top: 450px;
+    margin-left: 22%;
+    width: 72%;
+  }
+
+}/*md-md*/
+
+@media screen and (min-width:1170px) {
+
+}/*lg*/
