@@ -1,0 +1,25 @@
+body {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, "Arial", "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+}
+
+.cover {}
+
+.navbar-collapse {
+  background-color: #000;
+}
+
+.nav {
+  /*height:85px;*/
+}
+
+.navbar-brand {
+  padding: 0px;
+}
+
+.dropdown {
+  /*height: 85px;*/
+}
+.dropdown-menu {
+
+    min-width: 132px;
+  }
