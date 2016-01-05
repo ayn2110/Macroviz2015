@@ -1,8 +1,11 @@
 body {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, "Arial", "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+  background-color: #F2F2F2;
 }
 p{
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  color: #525261;
+  line-height: 180%;
 }
 ol{
   list-style-type: none;
@@ -13,7 +16,29 @@ ol{
 .navbar-collapse {
   background-color: #000;
 }
+.Step{
+  font-size: 1.5em;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+.StepContent{
+  margin-bottom: 60px;
+}
+.StepContent ol{
+  list-style-type: decimal;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+.StepContent ol>li{
+  font-size: 1.5em;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+.AuthorContent{
+  background-color: #A6A6B7;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.PageAuthor{
 
+}
 .nav {
   /*height:85px;*/
 }
@@ -91,7 +116,6 @@ h3{
   font-size: 1.8em;
   line-height: 180%;
   margin-top: 0px;
-  margin-bottom: 40px;
 }
 
 .Date{
@@ -108,20 +132,103 @@ footer{
 
 #PageSection{
   margin-top: 430px;
+
 }
+.License{
+  margin-bottom: 30px;
+  text-align: right;
+  color: white;
+  text-shadow: 1px 1px 4px gray;
+  clear:both;
+  width: 95%;
+  margin-top: 400px;
+margin-right: 5%;
+}
+
 .ArticleContent a{
   color: #434363;
 }
 .ArticleContent span>a{
   color: #B46466;
 }
-@media screen and (min-width: 480px) {
+.PageNumber,.PageNumberActive{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid #B56567;
+  display: block;
+  text-align: center;
+  line-height: 40px;
+  float: left;
+  clear: none;
+  margin-right: 1%;
+  margin-bottom: 20px;
+}
+.PageNumberActive{
+  background-color: #B56567;
+  color: white;
+
+}
+#Breadcrumb{
+  margin-bottom: 40px;
+    font-size: 1.3em;
+    clear: both;
+    width: 100%;
+}
+#Breadcrumb a{
+  color: #900011;
+
+}
+
+.PageArticleTitle{
+  box-shadow: 0px 0px 4px gray;
+
+}
+@media screen and (min-width: 481px) {
+  .container{
+    width: 600px;
+  }
   #PhoneList{
     background-color: #fff;
   }
+  #PageList{
+    position: fixed;
+    width: 450px;
+    height: 100%;
+    background-color: #20202F;
+  }
+div.List{
+  background-color: #20202F;
+  height: 100%;
+  width: 250px;
+  padding-top: 60px;
+}
+  #PageSection{
+    margin-top: 450px;
+    margin-left: 270px;
+    width: 60%;
+  }
+  .Step{
+    font-size: 2em;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  }
+  .StepContent{
+    margin-bottom: 60px;
+  }
+  .StepContent ol{
+    list-style-type: decimal;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  }
+  .StepContent ol>li{
+    font-size: 1.5em;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  }
 }/*xs*/
-@media screen and (min-width:750px) {
-
+@media screen and (min-width:855px) {
+  .Step{
+    font-size: 3em;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  }
   .container {
     width: 970px;
   }
@@ -137,8 +244,9 @@ footer{
 
   #PageSection{
     margin-top: 450px;
-    margin-left: 22%;
-    width: 72%;
+    margin-left: 270px;
+    width: 60%;
+    max-width: 970px
   }
 
 }/*md-md*/

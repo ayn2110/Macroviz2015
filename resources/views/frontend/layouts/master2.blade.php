@@ -17,10 +17,11 @@
 <div id="Page">
 <div class="cover">
 	@include ('frontend/layouts/navbar')
-
+	<div class="cover-image" style="background-image: url('{{ asset('images/frontend/banner/article_banner.jpg') }}')"></div>
+	<div class="section" id="PageSection">
 
 @yield('content')
-
+	</div>
 
 
 </div>

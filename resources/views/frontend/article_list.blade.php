@@ -50,6 +50,8 @@ Development Tutorials</h2>
 
 @stop
 @section('content')
+<div class="cover-image" style="background-image: url('{{ asset('images/frontend/banner/article_banner.jpg') }}')"></div>
+<div class="section" id="PageSection">
 <div class="container ArticleContent">
   <h1 class="visible-xs">@yield('document_title')</h1>
   <div class="row">
@@ -57,7 +59,7 @@ Development Tutorials</h2>
        <img src="uploads/article/article_pic_01.jpg" class="img-responsive">
      </div>
      <div class="col-md-6" style="vertical-align:bottom">
-       <h3><a href="#">Installingl npm (Node.js Package Manager) on Windows</a></h3> <p class="Author">By&nbsp;&nbsp;<span><a href="#">Sheng-Bo Chen</a> </span></p>
+       <h3 style="  margin-bottom: 40px;"><a href="{{ route('article_content') }}">Installing npm (Node.js Package Manager) on Windows</a></h3> <p class="Author">By&nbsp;&nbsp;<span><a href="#">Sheng-Bo Chen</a> </span></p>
   <p class="Date">June 17th, 2014</p>
 </div>
 </div>
@@ -71,13 +73,13 @@ Development Tutorials</h2>
 </div>
 <!-- article -->
 <div class="container ArticleContent">
-  <h1 class="visible-xs">@yield('document_title')</h1>
+
   <div class="row">
     <div class="col-md-6">
        <img src="uploads/article/article_pic_01.jpg" class="img-responsive">
      </div>
      <div class="col-md-6" style="vertical-align:bottom">
-       <h3><a href="#">Installingl npm (Node.js Package Manager) on Windows</a></h3> <p class="Author">By&nbsp;&nbsp;<span><a href="#">Sheng-Bo Chen</a> </span></p>
+       <h3><a href="#">Installing npm (Node.js Package Manager) on Windows</a></h3> <p class="Author">By&nbsp;&nbsp;<span><a href="#">Sheng-Bo Chen</a> </span></p>
   <p class="Date">June 17th, 2014</p>
 </div>
 </div>
@@ -91,13 +93,13 @@ Development Tutorials</h2>
 </div>
 <!-- article -->
 <div class="container ArticleContent">
-  <h1 class="visible-xs">@yield('document_title')</h1>
+
   <div class="row">
     <div class="col-md-6">
        <img src="uploads/article/article_pic_01.jpg" class="img-responsive">
      </div>
      <div class="col-md-6" style="vertical-align:bottom">
-       <h3><a href="#">Installingl npm (Node.js Package Manager) on Windows</a></h3> <p class="Author">By&nbsp;&nbsp;<span><a href="#">Sheng-Bo Chen</a> </span></p>
+       <h3><a href="#">Installing npm (Node.js Package Manager) on Windows</a></h3> <p class="Author">By&nbsp;&nbsp;<span><a href="#">Sheng-Bo Chen</a> </span></p>
   <p class="Date">June 17th, 2014</p>
 </div>
 </div>
@@ -111,13 +113,13 @@ Development Tutorials</h2>
 </div>
 <!-- article -->
 <div class="container ArticleContent">
-  <h1 class="visible-xs">@yield('document_title')</h1>
+
   <div class="row">
     <div class="col-md-6">
        <img src="uploads/article/article_pic_01.jpg" class="img-responsive">
      </div>
      <div class="col-md-6" style="vertical-align:bottom">
-       <h3><a href="#">Installingl npm (Node.js Package Manager) on Windows</a></h3> <p class="Author">By&nbsp;&nbsp;<span><a href="#">Sheng-Bo Chen</a> </span></p>
+       <h3><a href="#">Installing npm (Node.js Package Manager) on Windows</a></h3> <p class="Author">By&nbsp;&nbsp;<span><a href="#">Sheng-Bo Chen</a> </span></p>
   <p class="Date">June 17th, 2014</p>
 </div>
 </div>
@@ -131,13 +133,13 @@ Development Tutorials</h2>
 </div>
 <!-- article -->
 <div class="container ArticleContent">
-  <h1 class="visible-xs">@yield('document_title')</h1>
+
   <div class="row">
     <div class="col-md-6">
        <img src="uploads/article/article_pic_01.jpg" class="img-responsive">
      </div>
      <div class="col-md-6" style="vertical-align:bottom">
-       <h3><a href="#">Installingl npm (Node.js Package Manager) on Windows</a></h3> <p class="Author">By&nbsp;&nbsp;<span><a href="#">Sheng-Bo Chen</a> </span></p>
+       <h3><a href="#">Installing npm (Node.js Package Manager) on Windows</a></h3> <p class="Author">By&nbsp;&nbsp;<span><a href="#">Sheng-Bo Chen</a> </span></p>
   <p class="Date">June 17th, 2014</p>
 </div>
 </div>
@@ -149,15 +151,16 @@ Development Tutorials</h2>
 </div>
 </div>
 </div>
+
 <!-- article -->
 <div class="container ArticleContent">
-  <h1 class="visible-xs">@yield('document_title')</h1>
+
   <div class="row">
     <div class="col-md-6">
        <img src="uploads/article/article_pic_01.jpg" class="img-responsive">
      </div>
      <div class="col-md-6" style="vertical-align:bottom">
-       <h3><a href="#">Installingl npm (Node.js Package Manager) on Windows</a></h3> <p class="Author">By&nbsp;&nbsp;<span><a href="#">Sheng-Bo Chen</a> </span></p>
+       <h3><a href="#">Installing npm (Node.js Package Manager) on Windows</a></h3> <p class="Author">By&nbsp;&nbsp;<span><a href="#">Sheng-Bo Chen</a> </span></p>
   <p class="Date">June 17th, 2014</p>
 </div>
 </div>
@@ -170,6 +173,18 @@ Development Tutorials</h2>
 </div>
 </div>
 <!-- article -->
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+          <span class="PageNumberActive">1</span>
+                    <span class="PageNumber">2</span>
+<span class="PageNumber">3</span>
+<span class="PageNumber">4</span>
+<span class="PageNumber">5</span>
+        </div>
+    </div>
+</div>
+
 <div  id="PhoneList" class="container">
 <div class="row visible-xs" >
   <div class="col-md-12">
@@ -198,5 +213,5 @@ Development Tutorials</h2>
 </ol>
   </div>
 </div></div>
-
+</div>
 @stop

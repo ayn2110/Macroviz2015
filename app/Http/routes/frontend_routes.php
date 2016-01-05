@@ -19,3 +19,8 @@ Route::get('article_list', array('as'=>'article_list',function()
 {
 	return View::make('frontend/article_list');
 }));
+
+Route::get('article_content', array('as'=>'article_content',function()
+{
+	return View::make('frontend/article_content');
+}));
