@@ -161,23 +161,23 @@ Development Tutorials</h2>
 <div class="row AuthorContent">
 
 
-<div class="col-xs-2" >
+<div class="col-md-3" style="text-align:center">
 <img src="images/frontend/article/shengbo.jpg" alt="Sheng-bo"  class="img-circle"/>
 
 </div>
-<div class="col-xs-10">
+<div class="col-md-9">
   <p class="PageAuthor">By&nbsp;&nbsp;<span><a href="#">Sheng-Bo Chen</a> </span></p>
   <p>
     My focus over the last few years has been designing themes and plugins for WordPress and I now also theme for the Ghost blogging platform.
   </p>
 </div>
-<div class="col-xs-10" style="text-align:right">
+<div class="col-md-9" style="text-align:right">
   <p class="PageAuthor">Translate&nbsp;&nbsp;<span><a href="#">Ayn</a> </span></p>
   <p>
     Hi there. I specialize in web-design and development and have been self-employed in the web sphere for the better part of a decade.
   </p>
 </div>
-<div class="col-xs-2" >
+<div class="col-md-3"  style="text-align:center">
 <img src="images/frontend/article/ayn.jpg" alt="ayn"  class="img-circle"/>
 
 </div>
